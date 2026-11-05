@@ -1,0 +1,12 @@
+# Never commit or share ROMs or patched ROMs. Share only the .bps patch.
+*.sfc
+*.smc
+*.swc
+*.fig
+*.zip
+.DS_Store
+__pycache__/
+
+# Finished runs hold extracted game text and graphics. Keep them local.
+archive/*
+!archive/.gitkeep
